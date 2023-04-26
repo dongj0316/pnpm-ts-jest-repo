@@ -1,5 +1,5 @@
 import type { JestConfigWithTsJest } from 'ts-jest'
-import { jsWithTsESM as tsjPreset } from 'ts-jest/presets'
+import { defaultsESM as tsjPreset } from 'ts-jest/presets'
 
 const jestConfig: JestConfigWithTsJest = {
   testEnvironment: 'node',
