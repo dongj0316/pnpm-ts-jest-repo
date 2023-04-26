@@ -16,7 +16,7 @@ const jestConfig: JestConfigWithTsJest = {
       rootDir: '<rootDir>/packages/pkg-a',
     },
     {
-      displayName: 'pkg-a',
+      displayName: 'pkg-b',
       rootDir: '<rootDir>/packages/pkg-b',
     },
   ],
