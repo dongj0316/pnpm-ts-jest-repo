@@ -1,17 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "strict": true,
-    "declaration": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "downlevelIteration": true,
-    "resolveJsonModule": true,
-    "jsx": "preserve",
-    "lib": ["esnext", "dom"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "allowJs": true
+    "module": "CommonJS",
+    "target": "ES2021",
+    "checkJs": false
   },
-  "include": ["src/**/*", "test", "__tests__"]
+  "files": ["globals.d.ts"]
 }
